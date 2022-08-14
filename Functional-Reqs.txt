@@ -1,0 +1,16 @@
+Functional Requirements: 
+
+Google Docs clone to minimize distraction
+
+
+The user needs to be able to set the words they need to type before the system will unlock
+The system needs to send a message to shame the user into meeting their goal
+The user needs to be able to be able to download their file 
+The document should autosave
+The user should be able to type rich text
+The user should be able to authenticate with their Google account 
+The user to should be able to view a historical record saved to a local directory of their choice
+The user should be able to print their document
+The user should be able to share their document 
+The user should be rewarded for their good behavior with new funny fonts
+

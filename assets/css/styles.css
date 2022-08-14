@@ -1,0 +1,150 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.nav {
+	width: 100%;
+	height: 42px;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 29px -10px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 1px 29px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 29px -10px rgba(0,0,0,0.75);
+
+}
+
+.nav .doc-controls {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 400px;
+}
+
+.nav .doc-controls li {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0;
+	cursor: pointer;
+}
+.nav .shareables {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 300px;
+}
+
+.nav ul li input {
+	display: inline-block;
+	width: 50px;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+.nav .shareables li {
+	padding: 10px 20px;
+	margin: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav ul li:first-child {
+	border-right: 1px solid rgba(0,0,0,0.3);
+}
+.file-list {
+	position: absolute;
+	top: 43px;
+	bottom: 0;
+	width: 300px;
+	left: -310px;
+	transition: left .5s ease;
+	z-index: 9999;
+	background-color: white;
+	box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	
+}
+
+.file-list-show {
+	left: 0;
+	transition: left .5s ease;
+}
+
+.file-list ul {
+	list-style: none;
+
+}
+
+.file-list ul li {
+	padding-bottom: 20px;
+}
+
+.user-text-area {
+	padding-top: 0px;
+
+}
+
+.tox-statusbar__text-container {
+	display: none !important;
+}
+#print-container { 
+    background-color: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 18px;
+    z-index: 99999;
+}
+
+.shame-message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+
+	width: 300px;
+	height: 300px;
+	box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 1px 16px -5px rgba(0,0,0,0.75);
+	color: darkred;
+	font-size: 40px;
+	text-align: center;
+	/*vertical-align: middle;*/
+	position: relative;
+	margin-top: -150px;
+	margin-left: -150px;
+	/*margin: -150px auto 0 auto;*/
+	background-color: white;
+	z-index: 999999999999;
+}
+
+.shame-message-wrapper {
+	display: none;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+}
+
+.shame-message-visible {
+	display: block !important;
+}

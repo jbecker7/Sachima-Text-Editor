@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<head>
+	<title>Sachima Text Editor</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<script src="assets/javascript/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	 <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+</head>
+<body>
+<nav class="nav">
+	<ul class="doc-controls floatleft">
+		<li class="my-docs-click">My Docs</li>
+		<li>
+			<input type="text" id="word-count" placeholder="0" name="word-count">
+			<input type="text" id="total-words" placeholder="Total" name="total-words">	
+		</li>
+	</ul>
+
+
+<!-- Should I set user input to a variable and feed that into share? Should I style it in CSS to stop the hyperlink formatting -->
+
+	<ul class="shareables floatright">
+		<li id="save">Save</li>
+		<li id="print" >Print</li>
+		<li><a href="mailto:?subject=<SUBJECT>&body=<BODY>">Share</a></li>
+
+	</ul>
+	<div class="clear"></div>
+</nav>
+<div class="file-list">	
+	<ul class="file-list-available">
+		<li><input type="file" id="input" multiple></li>
+		
+	</ul>	
+</div>
+<div id="container-id" class="container">
+	<div class="user-text-area">
+		<textarea class="user-text" name="user-text">
+		</textarea>
+	</div>
+	
+</div>
+
+<div class="shame-message-wrapper"><div class="shame-message"><p>You suck</p></div></div>
+<script type="text/javascript" src="assets/javascript/main.js"></script>
+
+</body>
+
+</html>
